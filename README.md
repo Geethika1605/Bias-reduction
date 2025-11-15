@@ -40,3 +40,39 @@ CTGAN / SDV – GAN-based synthetic data generation
 Matplotlib / Seaborn – Data visualization
 
 Jupyter Notebook – Experimentation and analysis
+
+
+
+
+
+📊 Workflow
+
+Data Loading & Preprocessing
+
+Handle missing values, encoding, normalization, etc.
+
+Identify Class Imbalance
+
+Visualize majority vs minority classes
+
+Apply SMOTE
+
+Generate synthetic samples for minority classes using interpolation
+
+Apply CTGAN
+
+Generate realistic synthetic tabular data using GANs
+
+Combine & Rebuild Balanced Dataset
+
+Train Model on Balanced Data
+
+Compare performance with imbalanced dataset
+
+Evaluate Improvements
+
+Accuracy
+
+Precision/Recall
+
+Confusion matrix visuals
