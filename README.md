@@ -26,8 +26,8 @@ Provide transparency in identifying synthetic medical imagery
 
 Python
 
-**Libraries & Frameworks
-**
+**Libraries & Frameworks**
+
 OpenCV – image processing
 
 NumPy, Pandas – data handling
@@ -51,9 +51,9 @@ PIL – image handling
 
 1.Dataset Validation
 
-Checks number of images
+    Checks number of images
 
-Identifies readable/unreadable files
+    Identifies readable/unreadable files
 
 2.Feature Extraction
 
