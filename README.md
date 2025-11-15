@@ -47,45 +47,20 @@ PIL – image handling
 
 
 
-🧵 Pipeline Workflow
+🔄 Workflow
 
-1.Dataset Validation
+1.Dataset Validation – Reads paths, checks readable image files
 
- Checks number of images
- Identifies readable/unreadable files
+2.Feature Extraction – Computes 15+ statistical + texture + frequency features
 
-2.Feature Extraction
+3.Augmentation – Generates synthetic images through transformations
 
- Color, texture, gradient, FFT, edge features
+4.SMOTE Balancing – Oversamples underrepresented class
 
-3.Synthetic Data Generation
+5.CTGAN Generation – Produces high-quality synthetic feature vectors
 
-  Through augmentation
+6.Model Training – Deep learning classifier to detect Real vs Synthetic
 
-  Via SMOTE
+7.Testing & Evaluation – Accuracy, confusion matrix, classification report
 
-  Via CTGAN
-
-4.Bias Reduction & Dataset Balancing
-
-5.Model Training
-
-  Deep neural network with dropout layers
-
-  Validation split to avoid overfitting
-
-6.Evaluation & Visualization
-
-  Confusion matrix
-
-  Classification report
-
-  Accuracy & precision graphs
-
-7.Real-Time Prediction
-
-  Accepts single image as input
-
-  Returns prediction: REAL or SYNTHETIC
-  
-  Confidence score included
+8.Real-Time Prediction – Classifies a single uploaded medical image
