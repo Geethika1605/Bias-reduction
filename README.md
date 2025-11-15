@@ -16,25 +16,27 @@ Detect AI-generated medical images that may introduce bias in diagnostic models
 
 Reduce dataset bias using advanced data augmentation and synthetic data generation
 
-Ensure model fairness in medical AI applications
-
 Provide transparency in identifying synthetic medical imagery
 
 
 
+🛠️ Tech Stack
+Programming Languages
 
-🛠 Tech Stack
+Python
 
+Libraries & Frameworks
 
+Pandas – Data preprocessing
 
+NumPy – Numerical operations
 
-Core Technologies
-Python 3.x - Primary programming language
+Scikit-learn – SMOTE, model training
 
-TensorFlow/Keras - Deep learning framework
+Imbalanced-learn (imblearn) – SMOTE implementation
 
-OpenCV - Image processing and computer vision
+CTGAN / SDV – GAN-based synthetic data generation
 
-scikit-learn - Machine learning utilities and metrics
+Matplotlib / Seaborn – Data visualization
 
-CTGAN - Synthetic data generation
+Jupyter Notebook – Experimentation and analysis
