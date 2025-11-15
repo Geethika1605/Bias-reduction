@@ -51,42 +51,41 @@ PIL – image handling
 
 1.Dataset Validation
 
-    Checks number of images
-
-    Identifies readable/unreadable files
+ Checks number of images
+ Identifies readable/unreadable files
 
 2.Feature Extraction
 
-Color, texture, gradient, FFT, edge features
+ Color, texture, gradient, FFT, edge features
 
 3.Synthetic Data Generation
 
-Through augmentation
+  Through augmentation
 
-Via SMOTE
+  Via SMOTE
 
-Via CTGAN
+  Via CTGAN
 
 4.Bias Reduction & Dataset Balancing
 
 5.Model Training
 
-Deep neural network with dropout layers
+  Deep neural network with dropout layers
 
-Validation split to avoid overfitting
+  Validation split to avoid overfitting
 
 6.Evaluation & Visualization
 
-Confusion matrix
+  Confusion matrix
 
-Classification report
+  Classification report
 
-Accuracy & precision graphs
+  Accuracy & precision graphs
 
 7.Real-Time Prediction
 
-Accepts single image as input
+  Accepts single image as input
 
-Returns prediction: REAL or SYNTHETIC
-
-Confidence score included
+  Returns prediction: REAL or SYNTHETIC
+  
+  Confidence score included
