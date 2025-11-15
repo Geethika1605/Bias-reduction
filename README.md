@@ -47,19 +47,19 @@ Jupyter Notebook – Experimentation and analysis
 
 📊 Workflow
 
-Data Loading & Preprocessing
+1.Data Loading & Preprocessing
 
 Handle missing values, encoding, normalization, etc.
 
-Identify Class Imbalance
+2.Identify Class Imbalance
 
 Visualize majority vs minority classes
 
-Apply SMOTE
+3.Apply SMOTE
 
 Generate synthetic samples for minority classes using interpolation
 
-Apply CTGAN
+4.Apply CTGAN
 
 Generate realistic synthetic tabular data using GANs
 
