@@ -20,59 +20,73 @@ Provide transparency in identifying synthetic medical imagery
 
 
 
+
 🛠️ Tech Stack
-Programming Languages
+**Languages**
 
 Python
 
-Libraries & Frameworks
+**Libraries & Frameworks
+**
+OpenCV – image processing
 
-Pandas – Data preprocessing
+NumPy, Pandas – data handling
 
-NumPy – Numerical operations
+Matplotlib, Seaborn – visualization
 
-Scikit-learn – SMOTE, model training
+Scikit-learn – model evaluation, SMOTE integration
 
-Imbalanced-learn (imblearn) – SMOTE implementation
+Imbalanced-learn (SMOTE) – class balancing
 
-CTGAN / SDV – GAN-based synthetic data generation
+CTGAN / SDV – synthetic tabular data generation
 
-Matplotlib / Seaborn – Data visualization
+TensorFlow / Keras – deep learning model
 
-Jupyter Notebook – Experimentation and analysis
-
-
+PIL – image handling
 
 
 
-📊 Workflow
 
-1.Data Loading & Preprocessing
+🧵 Pipeline Workflow
 
-Handle missing values, encoding, normalization, etc.
+1.Dataset Validation
 
-2.Identify Class Imbalance
+Checks number of images
 
-Visualize majority vs minority classes
+Identifies readable/unreadable files
 
-3.Apply SMOTE
+2.Feature Extraction
 
-Generate synthetic samples for minority classes using interpolation
+Color, texture, gradient, FFT, edge features
 
-4.Apply CTGAN
+3.Synthetic Data Generation
 
-Generate realistic synthetic tabular data using GANs
+Through augmentation
 
-Combine & Rebuild Balanced Dataset
+Via SMOTE
 
-Train Model on Balanced Data
+Via CTGAN
 
-Compare performance with imbalanced dataset
+4.Bias Reduction & Dataset Balancing
 
-Evaluate Improvements
+5.Model Training
 
-Accuracy
+Deep neural network with dropout layers
 
-Precision/Recall
+Validation split to avoid overfitting
 
-Confusion matrix visuals
+6.Evaluation & Visualization
+
+Confusion matrix
+
+Classification report
+
+Accuracy & precision graphs
+
+7.Real-Time Prediction
+
+Accepts single image as input
+
+Returns prediction: REAL or SYNTHETIC
+
+Confidence score included
