@@ -22,6 +22,8 @@ Provide transparency in identifying synthetic medical imagery
 
 
 🛠️ Tech Stack
+
+
 **Languages**
 
 Python
